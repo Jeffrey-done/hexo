@@ -1,0 +1,57 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "wuzuhua-wuzuhua-cn-ujjomfff",
+    "options": {
+        "url": "https://wuzuhua.wuzuhua.cn/gkdjs/",
+        "index": "index.html",
+        "domain": "wuzuhua.wuzuhua.cn",
+        "origin": "https://wuzuhua.wuzuhua.cn",
+        "ipaddress": "47.102.150.253",
+        "originURL": "https://wuzuhua.wuzuhua.cn/gkdjs/",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Sat, 27 Mar 2021 14:38:41 GMT",
+                "content-type": "text/html",
+                "last-modified": "Fri, 15 May 2020 16:12:10 GMT",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "set-cookie": [
+                    "X_CACHE_KEY=edc2113afac896e0713e7fee97d7e16f; path=/; Expires=Fri, 31-Dec-9999 23:59:59 GMT"
+                ],
+                "etag": "W/\"5ebebf5a-8d2\"",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1616855919971,
+        "end": 1616856023663,
+        "spend": 103.692
+    }
+}

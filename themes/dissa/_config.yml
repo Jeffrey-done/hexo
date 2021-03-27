@@ -8,6 +8,7 @@ menu:
   VideoJs: /VideojsPlayer
   MusicSo: /musicsoso
   Cat照片墙: /picturewall
+  高考倒计时: /hightext
 
 # 是否显示目录
 TOC: false
