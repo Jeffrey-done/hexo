@@ -5,7 +5,8 @@ menu:
   #标签: /tags
   #归档: /archives  
   关于: /about
-  视频: /videojs
+  VideoJs: /VideojsPlayer
+  MusicSo: /musicsoso
 
 # 是否显示目录
 TOC: false

@@ -1,0 +1,50 @@
+.tableview-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tableview-container>.header {
+    flex-shrink: 0;
+}
+
+.tableview-container>.body {
+    position: relative;
+    flex: 1;
+}
+
+.tableview-container>.tr,
+.tableview-container>.body>.tr {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    position: relative;
+    font-size: 16px;
+}
+
+.tableview-container>.tr>.td,
+.tableview-container>.body>.tr>.td {
+    height: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.tableview-container>.tr>.td::after,
+.tableview-container>.body>.tr>.td::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    transform: scaleY(0.5);
+    background-color: rgba(224, 224, 224, 0.2);
+}
