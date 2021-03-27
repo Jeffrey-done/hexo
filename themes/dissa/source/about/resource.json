@@ -1,0 +1,55 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://lete114.top/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://lete114.top/img/avatar.png",
+                    "path": "images/avatar.png"
+                },
+                {
+                    "url": "https://lete114.top/img/icp.png",
+                    "path": "images/icp.png"
+                },
+                {
+                    "url": "https://lete114.top/css/iconfont.min.css",
+                    "path": "css/iconfont.min.css",
+                    "children": []
+                },
+                {
+                    "url": "https://lete114.top/css/index.css",
+                    "path": "css/index.css",
+                    "children": [
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/VarelaRound-Regular.ttf",
+                            "path": "fonts/VarelaRound-Regular.ttf"
+                        },
+                        {
+                            "url": "https://cdn.jsdelivr.net/gh/lete114/CDN2/img/wei_er_li_te/3.jpg",
+                            "path": "images/3.jpg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://lete114.top/css/Lete.css",
+                    "path": "css/Lete.css"
+                },
+                {
+                    "url": "https://lete114.top/img/favicon.ico",
+                    "path": "favicon.ico"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}

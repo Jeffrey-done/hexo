@@ -1,0 +1,62 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "lete114-top-cgfgcflh",
+    "options": {
+        "url": "https://lete114.top/",
+        "index": "index.html",
+        "domain": "lete114.top",
+        "origin": "https://lete114.top",
+        "ipaddress": "1.81.5.178",
+        "originURL": "https://lete114.top/",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "server": "marco/2.13",
+                "date": "Sun, 21 Mar 2021 03:09:22 GMT",
+                "content-type": "text/html; charset=utf-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "x-source": "C/200",
+                "content-disposition": "inline; filename=\"index.html\"",
+                "cache-control": "public, max-age=0, must-revalidate",
+                "etag": "W/\"f1689bb6957fd7ad73bf51f1fa822473d920ed393e9aef82af3efa1fe20deff7\"",
+                "access-control-allow-origin": "*",
+                "x-vercel-id": "hkg1::ls5fc-1616296162313-72824614b8d4",
+                "strict-transport-security": "max-age=63072000",
+                "x-vercel-cache": "HIT",
+                "x-request-id": "8b1955ced9306b55844d73bce298c4d9",
+                "via": "S.mix-js-czx2-045, T.45.D, V.mix-js-czx2-047, T.172.D, M.ctn-sn-xiy-172",
+                "content-encoding": "gzip"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1616296160779,
+        "end": 1616296165109,
+        "spend": 4.33
+    }
+}
